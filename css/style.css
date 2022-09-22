@@ -27,7 +27,7 @@ body{
 
 header{
     height: 40px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 .row-header{
@@ -50,14 +50,7 @@ header{
 
 
 
-/* ----FOOTER-- */
 
-footer{
-    background-color: aquamarine;
-    height: 90px;
-}
-
-/* ----FOOTER-- */
 
 
 
@@ -108,3 +101,38 @@ main{
     padding: 5px 5px;
     
 }
+
+/* ----MAINN-- */
+
+
+
+
+
+
+/* ----FOOTER-- */
+
+footer {
+    background-color: aquamarine;
+    height: 90px;
+}
+
+
+.row-footer{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.left, .right{
+    background-color: blue;
+    width: 20%;
+}
+
+.center{
+   background-color: yellow;
+}
+
+
+/* ----FOOTER-- */
