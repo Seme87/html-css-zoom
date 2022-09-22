@@ -1,0 +1,110 @@
+/* ----RESET--- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----RESET--- */
+
+
+
+
+/* ----COMMON--- */
+
+body{
+    height: 100vh;
+    background-color: black;
+}
+
+/* ----COMMON--- */
+
+
+
+/* ----HRADER-- */
+
+
+header{
+    height: 40px;
+    background-color: antiquewhite;
+}
+
+.row-header{
+    /* margin: 0px 6px; */
+    padding: 10px 7px;
+    font-size:14px ;
+    text-align: right;
+    color: white;
+}
+
+
+.row-header span{
+    padding: 5px 5px;
+    border-radius:6px ;
+    background-color:rgba(74, 74, 74, 0.7); 
+}
+
+/* ----HRADER-- */
+
+
+
+
+/* ----FOOTER-- */
+
+footer{
+    background-color: aquamarine;
+    height: 90px;
+}
+
+/* ----FOOTER-- */
+
+
+
+/* ----MAIN-- */
+
+main{
+    height: calc(100% - 130px);
+    /* background-color: blueviolet; */
+    margin: auto;
+    width: 90%;
+    overflow-y: auto;
+}
+
+.row-main{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.box{
+    width: calc(100% / 7 );
+    padding: 5px 3px;
+    /* background-color: yellow; */
+}
+
+
+.card img{
+    width: 100%;
+    display: block;
+    
+}
+
+
+.card{
+    position: relative;
+}
+
+
+
+.name{
+    position: absolute;
+    bottom: 0px;
+    font-size: 10px;
+    border-radius: 5px;
+    background-color: rgba(74, 74, 74, 0.7);
+    color: white;
+    padding: 5px 5px;
+    
+}
