@@ -114,14 +114,17 @@ main{
 footer {
     background-color: aquamarine;
     height: 90px;
+    display: flex;
+    align-items: center;
 }
 
 
 .row-footer{
+    background-color: green;
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+   
 }
 
 
